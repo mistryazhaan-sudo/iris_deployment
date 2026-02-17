@@ -4,7 +4,7 @@ import numpy as np
 import sklearn
 
 #load saved model
-with open("model.pkl","rd") as f:
+with open("model.pkl",'rd') as f:
     model = pickle.load(f)
 
 #Streamlit UI
